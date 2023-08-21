@@ -12,11 +12,17 @@ this.setState({
     count:this.state.count + 1
 })
   }
+  sub(){
+    this.setState({
+        count: this.state.count -1
+  })
+  }
   render() {
     return (
       <div>
-        <h1>count - {this.state.count}</h1>
+        <h1>quantity - {this.state.count}</h1>
         <button onClick={()=> this.add()}>add</button>
+        <button onClick={()=> this.sub()}>Subscribe</button>
            </div>
     )
   }
