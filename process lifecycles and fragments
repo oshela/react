@@ -1,0 +1,17 @@
+mounting methods lifecycle:
+-constructor: initializing states and binding event handlers
+-static getderivedstatefromprops(props, state)
+-render():props and states
+-componentdidmount
+updating lifecycle methods
+-static getderivedstatefromprops(props, state)
+-constructor
+-render()
+-getsnapshotbeforeupdate(prevprops,prevstate)
+-componentdidupdate(prevprops,prevstate,snapshot)
+unmounting phase methods
+-componentwillunmount
+fragments
+fragments let you group a list of children elements without creating extra nodes, instead of components starting with a containing div, we can use React.Fragment or an empty tag <></> to render a component
+
+
